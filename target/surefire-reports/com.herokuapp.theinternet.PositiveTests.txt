@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.herokuapp.theinternet.PositiveTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.161 s <<< FAILURE! - in com.herokuapp.theinternet.PositiveTests
+com.herokuapp.theinternet.PositiveTests.loginTest  Time elapsed: 7.803 s  <<< FAILURE!
+java.lang.AssertionError: 
+Actual message does not contain expected message.
+Actual Message: You logged into a secure area!
+×
+ExpectedMessage You logged into a secure area! expected [true] but found [false]
+	at com.herokuapp.theinternet.PositiveTests.loginTest(PositiveTests.java:69)
+
